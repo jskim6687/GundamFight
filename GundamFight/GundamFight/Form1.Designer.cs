@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gundamPicture = new System.Windows.Forms.PictureBox();
+            this.buttonS = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gundamPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,11 +44,21 @@
             this.gundamPicture.TabIndex = 0;
             this.gundamPicture.TabStop = false;
             // 
+            // buttonS
+            // 
+            this.buttonS.Location = new System.Drawing.Point(409, 49);
+            this.buttonS.Name = "buttonS";
+            this.buttonS.Size = new System.Drawing.Size(246, 57);
+            this.buttonS.TabIndex = 1;
+            this.buttonS.Text = "가위";
+            this.buttonS.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 519);
+            this.Controls.Add(this.buttonS);
             this.Controls.Add(this.gundamPicture);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -60,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox gundamPicture;
+        private System.Windows.Forms.Button buttonS;
     }
 }
 
