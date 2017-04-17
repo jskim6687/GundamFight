@@ -57,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 519);
+            this.ClientSize = new System.Drawing.Size(1005, 519);
             this.Controls.Add(this.buttonS);
             this.Controls.Add(this.gundamPicture);
             this.Name = "Form1";
