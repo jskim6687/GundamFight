@@ -21,5 +21,28 @@ namespace GundamFight
         {
             //git test
         }
+
+        private void buttonS_Click(object sender, EventArgs e)
+        {
+            Fight fight = new Fight();
+            fight.test(1);
+        }
+
+        private void buttonR_Click(object sender, EventArgs e)
+        {
+            Fight fight = new Fight();
+            fight.test(2);
+        }
+
+        private void buttonP_Click(object sender, EventArgs e)
+        {
+            Fight fight = new Fight();
+            fight.test(3);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
