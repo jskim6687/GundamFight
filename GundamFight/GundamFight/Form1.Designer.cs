@@ -42,9 +42,9 @@
             // gundamPicture
             // 
             this.gundamPicture.Image = ((System.Drawing.Image)(resources.GetObject("gundamPicture.Image")));
-            this.gundamPicture.Location = new System.Drawing.Point(13, 13);
+            this.gundamPicture.Location = new System.Drawing.Point(32, 47);
             this.gundamPicture.Name = "gundamPicture";
-            this.gundamPicture.Size = new System.Drawing.Size(343, 309);
+            this.gundamPicture.Size = new System.Drawing.Size(287, 257);
             this.gundamPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gundamPicture.TabIndex = 0;
             this.gundamPicture.TabStop = false;
@@ -82,9 +82,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(647, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(671, 51);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 309);
+            this.pictureBox1.Size = new System.Drawing.Size(265, 253);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
